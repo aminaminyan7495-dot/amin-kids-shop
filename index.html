@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پوشاک امین | فروشگاه آنلاین</title>
+<meta name="description" content="فروشگاه آنلاین پوشاک امین؛ پوشاک کودک و نوجوان">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">ارسال به سراسر ایران • ۱۰٪ تخفیف اولین خرید آنلاین</div>
+<header class="header">
+  <button class="icon-btn menu-btn" aria-label="منو">☰</button>
+  <a class="logo" href="index.html"><span>امین</span><small>پوشاک کودک و نوجوان</small></a>
+  <nav class="nav">
+    <a href="#new">جدیدترین‌ها</a><a href="#boys">پسرانه</a><a href="#girls">دخترانه</a><a href="#kids">کودک</a><a href="#bags">کیف و اکسسوری</a><a class="sale" href="#products">تخفیف‌ها</a>
+  </nav>
+  <div class="actions"><button class="icon-btn" id="searchBtn">⌕</button><button class="cart-btn" id="cartBtn">سبد خرید <b id="cartCount">0</b></button></div>
+</header>
+<div class="mobile-menu" id="mobileMenu"><a href="#new">جدیدترین‌ها</a><a href="#boys">پسرانه</a><a href="#girls">دخترانه</a><a href="#kids">کودک</a><a href="#bags">کیف و اکسسوری</a></div>
+
+<main>
+<section class="hero">
+  <div class="hero-copy"><p class="eyebrow">۲۰ سال همراه شما</p><h1>استایل خوب،<br><em>از کودکی شروع می‌شود.</em></h1><p>پوشاک منتخب کودک و نوجوان با کیفیت، قیمت مناسب و ارسال به سراسر ایران.</p><a class="primary" href="#products">مشاهده محصولات <span>←</span></a></div>
+  <div class="hero-art"><div class="circle"></div><div class="hero-card">NEW<br><strong>COLLECTION</strong><small>AMIN KIDS WEAR</small></div></div>
+</section>
+
+<section class="benefits">
+  <div><b>🚚</b><span><strong>ارسال سراسر ایران</strong><small>بسته‌بندی مطمئن</small></span></div>
+  <div><b>✓</b><span><strong>خرید مطمئن</strong><small>تضمین کیفیت کالا</small></span></div>
+  <div><b>↻</b><span><strong>پشتیبانی سفارش</strong><small>قبل و بعد از خرید</small></span></div>
+  <div><b>%</b><span><strong>تخفیف ویژه</strong><small>برای اولین خرید آنلاین</small></span></div>
+</section>
+
+<section class="section" id="new">
+<div class="section-head"><div><p class="eyebrow">انتخاب امین</p><h2>جدیدترین محصولات</h2></div><a href="#products">مشاهده همه ←</a></div>
+<div class="products" id="featured"></div>
+</section>
+
+<section class="categories">
+  <a class="cat cat1" href="#boys"><span>پسرانه</span><small>استایل روزمره و شیک</small></a>
+  <a class="cat cat2" href="#girls"><span>دخترانه</span><small>رنگ‌های دوست‌داشتنی</small></a>
+  <a class="cat cat3" href="#kids"><span>کودک</span><small>نرم، راحت و باکیفیت</small></a>
+</section>
+
+<section class="section" id="products">
+<div class="section-head"><div><p class="eyebrow">SHOP</p><h2>همه محصولات</h2></div>
+<div class="tools"><button id="filterBtn">فیلتر</button><select id="sort"><option value="default">مرتب‌سازی</option><option value="cheap">ارزان‌ترین</option><option value="expensive">گران‌ترین</option><option value="new">جدیدترین</option></select></div></div>
+<div class="shop-layout"><aside class="filters" id="filters"><h3>فیلتر محصولات</h3><label>دسته‌بندی</label><select id="category"><option value="all">همه</option><option value="پسرانه">پسرانه</option><option value="دخترانه">دخترانه</option><option value="کودک">کودک</option><option value="کیف">کیف و اکسسوری</option></select><label>حداقل قیمت</label><input id="minPrice" type="number" placeholder="۰"><label>حداکثر قیمت</label><input id="maxPrice" type="number" placeholder="مثلاً ۲۰۰۰۰۰۰"><button class="primary full" id="apply">اعمال فیلتر</button></aside><div class="products" id="productGrid"></div></div>
+</section>
+
+<section class="newsletter"><div><p class="eyebrow">AMIN CLUB</p><h2>از محصولات جدید جا نمون!</h2><p>برای دریافت جدیدترین محصولات و تخفیف‌ها عضو خبرنامه شوید.</p></div><form onsubmit="event.preventDefault(); alert('عضویت شما با موفقیت ثبت شد 🌱');"><input type="email" required placeholder="ایمیل شما"><button class="primary">عضویت</button></form></section>
+</main>
+
+<footer><div class="footer-brand"><div class="logo"><span>امین</span><small>پوشاک کودک و نوجوان</small></div><p>۲۰ سال سابقه در ارائه پوشاک با کیفیت.</p></div><div><h4>دسترسی سریع</h4><a href="#new">جدیدترین‌ها</a><a href="#products">محصولات</a><a href="#boys">پسرانه</a><a href="#girls">دخترانه</a></div><div><h4>ارتباط با ما</h4><a href="https://instagram.com/poushakamin" target="_blank">Instagram</a><a href="https://ble.ir/aminkidswear" target="_blank">کانال بله</a><span>بلوار معلم، خیابان کرمانی، یادگار ۱۹۳</span></div></footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer"><div class="drawer-head"><h3>سبد خرید</h3><button id="closeCart">×</button></div><div id="cartItems"></div><div class="cart-bottom"><div><span>مجموع</span><strong id="cartTotal">۰ تومان</strong></div><button class="primary full" id="checkoutBtn">ادامه و ثبت سفارش</button></div></aside>
+
+<div class="modal" id="productModal"><button class="modal-close" id="closeModal">×</button><div id="modalContent"></div></div>
+<div class="search-panel" id="searchPanel"><div><input id="searchInput" autofocus placeholder="نام محصول را جستجو کنید..."><button id="closeSearch">×</button></div></div>
+<script src="app.js"></script>
+</body></html>
